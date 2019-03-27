@@ -1678,7 +1678,7 @@
         margin-bottom: -6%
     }
     .navbar-nav {
-        height: 90vh
+        height: 80vh
     }
     .navbar-nav li {
         height: 15%;
@@ -1821,7 +1821,7 @@
     #collapsibleNavbar {
         background-color: white;
         position: absolute;
-        z-index: 10000;
+        z-index: 15000;
         top: 75%;
         right: 0;
         left: 0
@@ -2460,7 +2460,7 @@
         border-bottom-right-radius: 10px
     }
     .achievement-container {
-        height: 90vh
+        height: 90vh;
     }
     .elats_right {
         width: 370px
@@ -4194,7 +4194,7 @@
         left: 0
     }
     .navbar-nav {
-        height: 90vh;
+        height: 80vh;
         padding-top:10%;
     }
     .navbar-nav li {
@@ -5114,7 +5114,11 @@
     .el_h2 {
         font-size: 12px;
         font-family: Avenir_medium;
-        margin-left: -6%
+        margin-left: -6%;
+        position:absolute;
+    }
+    #colon{
+        display:none;
     }
     .slide2 {
         width: 300px;
@@ -5576,21 +5580,19 @@
     #collapsibleNavbar {
         background-color: white;
         position: absolute;
-        z-index: 10000;
+        z-index: 20000;
         top: 75%;
         right: 0;
         left: 0
     }
     .navbar-nav {
-        height: 90vh;
-        padding-top:10%;
-    }
+    height: 80vh;
+    /* padding-top: 0%; */
+}
     .navbar-nav li {
-        height: 100%;
-        margin-top:7%;
-
-       
-    }
+    
+    margin-top: 10%;
+} 
     .avinash .navbar-nav .nav-link,
     .avinash .navbar-nav .nav-link.active {
         font-size: 20px!important
@@ -5636,15 +5638,34 @@
         margin-top: 4%;
         margin-bottom: 4%
     }
+    .ev_container {
+    margin-top: -690px;
+    height: fit-content;
+    margin-left: 58%;
+    position: relative;
+    width: 35vw;
+    height: 35vw;
+}
     .elat_video {
-        width: 28vh!important;
-        height: 28vh!important;
-        margin-left: 50%;
-        object-fit: cover;
-        margin-top: -222%;
-        border-radius: 50%;
-        position: absolute
-    }
+    width: 100%!important;
+    height: 100%!important;
+    /* margin-left: 48%; */
+    object-fit: cover;
+    /* margin-top: -118vh; */
+    border-radius: 50%;
+    position: absolute;
+    margin:0;
+}
+.e_play_btn {
+    position: absolute;
+    /* margin-top: -153vw; */
+    top: 35%;
+    /* margin-left: 60%; */
+    width: 30%;
+    height: 30%;
+    left: 35%;
+    margin: 0 !important;
+}
     .rv_container{
     width: 40vw;
     height: 40vw;
@@ -5671,12 +5692,7 @@
     left: 35%;
     top: 35%;
 }
-    .e_play_btn {
-        position: absolute;
-        margin-top: -208%;
-        margin-left: 65%;
-        width: 52px
-    }
+
     
     .achievement-card .col-centered img {
         height: 56px;
@@ -5741,8 +5757,8 @@
         margin-top: 8%
     }
     .navbar-nav {
-        height: 90vh;
-        padding-top:10%;
+        height: 80vh;
+        
     }
     .navbar-nav li {
         height: 100%;
@@ -5800,7 +5816,7 @@
     #collapsibleNavbar {
         background-color: white;
         position: absolute;
-        z-index: 10000;
+        z-index: 20000;
         top: 75%;
         right: 0;
         left: 0
@@ -5911,16 +5927,20 @@
         margin-left: -4%!important
     }
     .el_h1 {
-        position: absolute;
-        margin-top: 4%;
-        font-family: ProximaNovaSoft-Bold;
-        font-size: 32px;
-        margin-left: -5%
-    }
+    position: absolute;
+    margin-top: -13%;
+    font-family: ProximaNovaSoft-Bold;
+    font-size: 32px;
+    margin-left: -6%;
+}
     .el_h2 {
         font-size: 12px;
         font-family: Avenir_medium;
-        margin-left: -5%
+        margin-left: -6%;
+        position:absolute;
+    }
+    #colon{
+        display:none;
     }
     .slide2 {
         width: 250px;
@@ -7112,9 +7132,9 @@
         display: none
     }
     .navbar-nav {
-        height: 90vh;
-        padding-top:10%;
-    }
+    height: 80vh;
+    padding-top: 0;
+}
     .navbar-nav li {
         height: 100%;
         margin-top: 10%;
@@ -7171,7 +7191,7 @@
     #collapsibleNavbar {
         background-color: white;
         position: absolute;
-        z-index: 10000;
+        z-index: 20000;
         top: 75%;
         right: 0;
         left: 0
@@ -8045,14 +8065,20 @@
         margin-left: -4%!important
     }
     .el_h1 {
-        position: absolute;
-        margin-top: 4%;
-        font-family: ProximaNovaSoft-Bold;
-        font-size: 32px
-    }
+    position: absolute;
+    margin-top: -13%;
+    font-family: ProximaNovaSoft-Bold;
+    font-size: 32px;
+    margin-left: -6%;
+}
     .el_h2 {
         font-size: 12px;
-        font-family: Avenir_medium
+        font-family: Avenir_medium;
+        margin-left: -6%;
+        position:absolute;
+    }
+    #colon{
+        display:none;
     }
     .slide2 {
         width: 300px;
@@ -8565,8 +8591,8 @@
         position: absolute
     }
     .navbar-nav {
-        height: 90vh;
-        padding-top:10%;
+        height: 80vh;
+        
     }
     .navbar-nav li {
         height: 100%;
@@ -8624,7 +8650,7 @@
     #collapsibleNavbar {
         background-color: white;
         position: absolute;
-        z-index: 10000;
+        z-index: 20000;
         top: 75%;
         right: 0;
         left: 0
@@ -9980,8 +10006,8 @@
         position: absolute
     }
     .navbar-nav {
-        height: 90vh;
-        padding-top:10%;
+        height: 80vh;
+        /*padding-top:10%;*/
     }
     .navbar-nav li {
         height: 100%;
@@ -10039,7 +10065,7 @@
     #collapsibleNavbar {
         background-color: white;
         position: absolute;
-        z-index: 10000;
+        z-index: 15000;
         top: 75%;
         right: 0;
         left: 0
@@ -11402,8 +11428,8 @@
         margin-top: 0%!important
     }
     .navbar-nav {
-        height: 90vh;
-        padding-top:10%;
+        height: 80vh;
+        /*padding-top:10%;*/
     }
     .navbar-nav li {
         height: 100%;
@@ -11464,7 +11490,7 @@
     #collapsibleNavbar {
         background-color: white;
         position: absolute;
-        z-index: 10000;
+        z-index: 15000;
         top: 75%;
         right: 0;
         left: 0
@@ -12750,8 +12776,8 @@
         position: absolute
     }
     .navbar-nav {
-        height: 90vh;
-        padding-top:10%;
+        height: 80vh;
+        /*padding-top:10%;*/
     }
     .navbar-nav li {
         height: 100%;
@@ -12809,7 +12835,7 @@
     #collapsibleNavbar {
         background-color: white;
         position: absolute;
-        z-index: 10000;
+        z-index: 15000;
         top: 75%;
         right: 0;
         left: 0
@@ -14633,14 +14659,14 @@ p.contact:nth-child(odd) {
     #collapsibleNavbar {
         background-color: white;
         position: absolute;
-        z-index: 10000;
+        z-index: 15000;
         top: 75%;
         margin-left:0;
         right: 0;
         left: 0
     }
 .navbar-nav {
-    height: 90vh;
+    height: 80vh;
     text-align: center;
 }
     .navbar-nav li {

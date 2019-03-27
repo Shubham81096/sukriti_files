@@ -411,7 +411,7 @@ else
 <!-- ecolat start -->
 <div class="container-fluid mb-100 el_style" style="margin-top:12%;" >
         <div class="col-md-12">
-            <p class="heading content"><span class="el_h1">ECOMITRA </span> <span class="el_h2">: A SMART SOLUTION</span>
+            <p class="heading content"><span class="el_h1">ECOMITRA </span> <span class="el_h2"><span id="colon">:</span> A SMART SOLUTION</span>
             <hr class="el_hr"/>
             <br><br></p>
         </div>
