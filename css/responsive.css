@@ -960,6 +960,24 @@
         width: 56px;
         margin-left: 38%
     }
+    #ministry {
+    height: 135%;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: -7%;
+}
+#brandeis {
+    height: 135%;
+    width: 45%;
+    margin-left: 27.5%;
+    margin-top: -5%;
+}
+#sc {
+    height: 168%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -6%;
+}
     .achievement-card .text-center .heading-text {
         font-size: 12px!important
     }
@@ -1114,17 +1132,7 @@
         height: 200px;
         width: 100%
     }
-    .impact {
-        padding-left: 5%;
-        padding-right: 5%;
-        text-align: center;
-        height: 250px;
-        width: 752px
-    }
-    .impact p {
-        width: 602px!important;
-        margin-left: 4%
-    }
+
     .map_sec {
         margin-top: 2%
     }
@@ -1132,18 +1140,190 @@
         padding: 3% 0% 0% 42%
     }
     .combination p {
-        margin-left: -5%!important;
-        width: 570px!important
+    margin-left: 2.5%!important;
+    width: 95%!important;
+    margin-top:-10%;
+}
+    .tabs-list-container{
+        width:350px;
+    }
+    .arrow{
+        margin-top:5%;
+
+    }
+    .right-arrow{
+        right:5vw;
+    }
+    .left-arrow{
+        left:5vw;
     }
     .left_text_320 {
         margin-left: 0%
     }
+    /* Ecomitra Page Style GFGF */
     .sec1_1 {
-        margin-right: -8%
-    }
+    width: 16%;
+    margin-right: 4%;
+}
     .sec1_2 {
-        margin-right: -3%
+    width: 21%;
+    margin-right: 3%;
+}
+.sec1_3 {
+    width: 18%;
+    margin-right: 0%;
+}
+.sec2 {
+    margin-top: 80px!important;
+    height: 80px!important;
+    width: 105%!important;
+    margin-bottom: 125px!important;
+    margin-left: 1%!important;
+}
+.ev_container {
+    margin-top: -940px;
+    height: fit-content;
+    margin-left: 50%;
+    position: relative;
+    width: 35vw;
+    height: 35vw;
+}
+    .elat_video {
+    width: 100%!important;
+    height: 100%!important;
+    /* margin-left: 48%; */
+    object-fit: cover;
+    /* margin-top: -118vh; */
+    border-radius: 50%;
+    position: absolute;
+    margin:0;
+}
+.e_play_btn {
+    position: absolute;
+    /* margin-top: -153vw; */
+    top: 35%;
+    /* margin-left: 60%; */
+    width: 30%;
+    height: 30%;
+    left: 35%;
+    margin: 0 !important;
+}
+.el_h1 {
+    position: absolute;
+    margin-top: -15%;
+    font-family: ProximaNovaSoft-Bold;
+    font-size: 36px;
+    margin-left: 0%;
+}
+.el_h2 {
+    font-size: 15px;
+    font-family: Avenir_medium;
+    margin-left: 0%;
+    margin-top: -4%;
+    position: absolute;
+}
+    #colon{
+        display:none;
     }
+    .el_hr {
+    float: left;
+    margin-bottom: 10%!important;
+    display: block;
+    width: 80px!important;
+    border-radius: 3px;
+    background-color: #00bfa5;
+    border: none;
+    margin-top: 5%!important;
+}
+.solution {
+    margin-left: 2.5%;
+    margin-top: 15%;
+}
+.el_align {
+    padding-right: 5px!important;
+}
+.el_align1 {
+    display: -webkit-inline-box;
+}
+section.left {
+    margin-left: -20px;
+    margin-right: 20px;
+}
+.el_align2 {
+    width: 0%;
+    margin-top: .8%;
+}
+section.left img {
+    height: 24px;
+    width: 24px;
+}
+.el_align3, .el_align1 p {
+    width: 90%;
+    line-height: 30px!important;
+}
+.el_align3 {
+    margin-left: -4%!important;
+}
+.slide3 {
+    margin-top: 799px;
+    height: 80px;
+}
+#jssor_3 {
+        position: relative;
+        margin: 0 auto;
+        top: -50px;
+        left: 0
+    }
+    .res, .res2 {
+    padding-left: 5%;
+    padding-top: 32px;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    color: white;
+    top: -3px;
+}
+#block-text1 {
+    width: 65%;
+    margin-left: 17.5%;
+}
+#block-text2 {
+    width: 74%;
+    margin-left: 13%;
+    
+}
+#block-text4 {
+    width: 65%;
+    margin-left: 17.5%;   
+}
+.block-text {
+    font-family: Avenir_heavy;
+    font-size: 13px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    font-stretch: normal;
+    line-height: 1.35;
+    letter-spacing: normal;
+    color: #fffffff0;
+}
+.container-fluid {
+    padding: 0%;
+    padding-top: 0 !important;
+}
+.impact {
+    /* padding-left: 5%; */
+    /* padding-right: 5%; */
+    text-align: center;
+    padding: 0;
+    height: 250px;
+    width: 80%;
+    margin-left: 10%;
+}
+.el_style{
+    margin-left:5%;
+}
+/* End of Ecomitra Style GFGF */
     input {
         margin-bottom: 10px
     }
@@ -1179,10 +1359,6 @@
         padding-right: 0;
         margin-right: 0;
         padding-left: 0px!important
-    }
-    .slide3 {
-        margin-top: 90%;
-        height: 140px
     }
     .container.story {
         background-color: rgb(7, 31, 27);
@@ -1449,9 +1625,7 @@
         object-fit: contain;
         opacity: .7
     }
-    .container-fluid {
-        padding-left: 3%
-    }
+    
     .carousel-wrap {
         height: 20vh
     }
@@ -1486,35 +1660,11 @@
         margin-top: 50px;
         height: 600px
     }
-    .res,
-    .res2 {
-        padding-left: 3%;
-        padding-top: 32px;
-        position: relative;
-        width: 100%;
-        height: 120px;
-        color: white;
-        top: -3px;
-        margin-bottom: 2%
-    }
-    .block-text {
-        font-family: Avenir_heavy;
-        font-size: 14px;
-        font-weight: 600;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: 1.35;
-        letter-spacing: normal;
-        color: #fffffff0
-    }
+    
     #block-text4 .block-text {
         padding-left: 17px
     }
-    #block-text2 {
-        width: 400px;
-        margin-left: 1%;
-        margin-right: -1%
-    }
+    
     #res3 {
         height: 150px!important
     }
@@ -1523,16 +1673,17 @@
         margin-right: 20px
     }
     .head-challenge {
-        width: 100%;
-        margin-left: -8%;
-        margin-right: 0%
-    }
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.sec1_sub1 {
+    display: -webkit-inline-box;
+}
     .head-challenge .left .heading-text {
         font-size: 14px
     }
-    #block-text1 {
-        margin-left: -2%
-    }
+    
     .head-challenge .col-md-5 .heading-text {
         width: 250px;
         font-size: 15px
@@ -1542,12 +1693,12 @@
         padding-left: 20px;
         font-size: 14px
     }
-    .major-challenge {
-        margin-top: 20px;
-        height: 80px;
-        width: 45%;
-        margin-left: 3%
-    }
+    .elats_sec1 {
+    margin-top: 20px!important;
+    height: 125px!important;
+    width: 100%!important;
+    margin-left: 0%!important;
+}
     .small_disp {
         display: flex;
         padding-left: 0
@@ -1556,9 +1707,7 @@
         margin-left: 0%;
         width: 685px
     }
-    .solution {
-        margin-top: -2%
-    }
+    
     .el_1 p {
         width: 365px!important
     }
@@ -1570,9 +1719,7 @@
     .el_align3 {
         margin-top: 1.5%
     }
-    .el_align1 p {
-        width: 670px
-    }
+    
     .slide2 {
         margin-top: -25%
     }
@@ -1746,12 +1893,15 @@
     .el_head {
         margin-top: 0%
     }
-    .small-icon {
-        width: 35px;
-        height: 35px;
-        padding: 0;
-        float: left!important
-    }
+    .small-icon_1 {
+    margin-top: -6px;
+}
+.small-icon {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    float: left!important;
+}
     #email {
         margin-top: -4%!important;
         margin-bottom: -2%
@@ -1837,7 +1987,7 @@
         margin-top: 15%
     }
     #bannerTextEcolat {
-        top: 11%;
+        top: 10%;
         left: 50%;
         width: 100%;
         font-size: 34px
@@ -1847,7 +1997,8 @@
         height: 450px
     }
     #foot-img2 {
-        height: 220px
+        height: 220px;
+        margin-top:10%;
     }
     footer {
     padding-top: 5px;
@@ -1993,6 +2144,38 @@
         width: 100%;
         font-size: 34px
     }
+    .bannerCareer img {
+    height: 65%!important;
+}
+#bannerTextCareer{
+    top:65.3%;
+    font-size:29px;
+}
+.combination p {
+    margin-left: 2.5%!important;
+    width: 95%!important;
+    margin-top:-35%;
+}
+    .tabs-list-container{
+        width:350px;
+    }
+    .arrow{
+        margin-top:5%;
+
+    }
+    .right-arrow{
+        right:8vw;
+    }
+    .left-arrow{
+        left:8vw;
+    }
+    .show_jobs {
+    margin-left: 2%;
+    font-family: Avenir_book;
+    font-size: 15px;
+    margin-top: 6%;
+    transition-duration: 0.8s;
+}
 }
 
 @media only screen and (min-width:640px) and (max-width:767px) {
@@ -2002,6 +2185,38 @@
         width: 100%;
         font-size: 41px
     }
+    .bannerCareer img {
+    height: 65%!important;
+}
+#bannerTextCareer{
+    top:65.3%;
+    font-size:29px;
+}
+.combination p {
+    margin-left: 2.5%!important;
+    width: 95%!important;
+    margin-top:-35%;
+}
+    .tabs-list-container{
+        width:350px;
+    }
+    .arrow{
+        margin-top:5%;
+
+    }
+    .right-arrow{
+        right:8vw;
+    }
+    .left-arrow{
+        left:8vw;
+    }
+    .show_jobs {
+    margin-left: 2%;
+    font-family: Avenir_book;
+    font-size: 15px;
+    margin-top: 6%;
+    transition-duration: 0.8s;
+}
 }
 
 @media only screen and (min-width:768px) and (max-width:990px) {
@@ -4308,7 +4523,12 @@
         width: 56px;
         margin-left: 38%
     }
-    
+    #ministry {
+    height: 135%;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: -7%;
+}
     #sulabh-logo {
         height: 70px;
         width: 56px;
@@ -5699,6 +5919,12 @@
         width: 56px;
         margin-left: 38%
     }
+    #ministry {
+    height: 135%;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: -7%;
+}
     #sulabh-logo {
         height: 100%;
         width: unset
@@ -7083,6 +7309,24 @@
         width: 56px;
         margin-left: 38%
     }
+    #ministry {
+    height: 135%;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: -7%;
+}
+#brandeis {
+    height: 135%;
+    width: 45%;
+    margin-left: 27.5%;
+    margin-top: -5%;
+}
+#sc {
+    height: 168%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -6%;
+}
     .achievement-card .text-center .heading-text {
         font-size: 12px!important
     }
@@ -8530,6 +8774,24 @@
         width: 56px;
         margin-left: 38%
     }
+    #ministry {
+    height: 135%;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: -7%;
+}
+#brandeis {
+    height: 135%;
+    width: 45%;
+    margin-left: 27.5%;
+    margin-top: -5%;
+}
+#sc {
+    height: 168%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -6%;
+}
     #sulabh-logo {
         height: 100%;
         width: unset;
@@ -8948,7 +9210,7 @@
         display: -webkit-box
     }
     .slide3 {
-        margin-top: 205%;
+        margin-top: 215%;
         height: 60px
     }
     .career_h {
@@ -9567,6 +9829,16 @@
     #colon{
         display:none;
     }
+    .el_hr {
+    float: left;
+    margin-bottom: 20%!important;
+    display: block;
+    width: 80px!important;
+    border-radius: 3px;
+    background-color: #00bfa5;
+    border: none;
+    margin-top: 15%!important;
+}
     .slide2 {
         width: 300px;
         position: absolute;
@@ -9596,16 +9868,6 @@
     .el_align1 p {
         width: 330px
     }
-    .el_hr {
-    float: left;
-    margin-bottom: 20%!important;
-    display: block;
-    width: 80px!important;
-    border-radius: 3px;
-    background-color: #00bfa5;
-    border: none;
-    margin-top: 15%!important;
-}
 .solution{
     height: auto;
     float: left;
@@ -9934,6 +10196,24 @@
         width: 56px;
         margin-left: 38%
     }
+    #ministry {
+    height: 135%;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: -7%;
+}
+#brandeis {
+    height: 135%;
+    width: 45%;
+    margin-left: 27.5%;
+    margin-top: -5%;
+}
+#sc {
+    height: 168%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -6%;
+}
     .show_jobs p {
         font-size: 12px
     }
@@ -10227,6 +10507,10 @@
         width: 100%;
         height: 200px!important
     }
+    #bannerTextRewater{
+        top:6.3%;
+        font-size:20px;
+    }
     .left_text_320 {
         margin-left: 0%
     }
@@ -10275,7 +10559,7 @@
         display: -webkit-box
     }
     .slide3 {
-        margin-top: 182%;
+        margin-top: 190%;
         height: 80px
     }
     .career_h {
@@ -10318,7 +10602,7 @@
         text-align: center
     }
     #bannerTextCareer {
-        top: 38%!important
+        top: 50%!important
     }
     .career_a1 {
         padding-left: 10px!important;
@@ -10390,6 +10674,10 @@
         width: 83px;
         height: 16px
     }
+    .BannerCareer {
+    height: 48vh;
+    width: 100%;
+}
     .achievement-container p.heading.content {
     font-size: 18px;
     padding-top: 8%;
@@ -10940,15 +11228,32 @@
         margin-left: -4%!important
     }
     .el_h1 {
-        position: absolute;
-        margin-top: 4%;
-        font-family: ProximaNovaSoft-Bold;
-        font-size: 32px
+    position: absolute;
+    margin-top: 0%;
+    font-family: ProximaNovaSoft-Bold;
+    font-size: 32px;
+    margin-left: 0%;
+}
+.el_h2 {
+    font-size: 12px;
+    font-family: Avenir_medium;
+    margin-left: 0%;
+    margin-top: 11%;
+    position: absolute;
+}
+    #colon{
+        display:none;
     }
-    .el_h2 {
-        font-size: 12px;
-        font-family: Avenir_medium
-    }
+    .el_hr {
+    float: left;
+    margin-bottom: 20%!important;
+    display: block;
+    width: 80px!important;
+    border-radius: 3px;
+    background-color: #00bfa5;
+    border: none;
+    margin-top: 20%!important;
+}
     .slide2 {
         width: 300px;
         position: absolute;
@@ -10978,16 +11283,6 @@
     .el_align1 p {
         width: 356px;
         line-height: 30px!important
-    }
-    .el_hr {
-        float: left;
-        margin-bottom: 30%!important;
-        display: block;
-        width: 80px!important;
-        border-radius: 3px;
-        background-color: #00bfa5;
-        border: none;
-        margin-top: 10%!important
     }
     section.left img {
         height: 24px;
@@ -11098,7 +11393,8 @@
         height: 450px
     }
     #foot-img2 {
-        height: 220px
+        height: 220px;
+        margin-top:16%;
     }
     footer {
         padding-top: 5px;
@@ -11300,6 +11596,20 @@
         width: 100%;
         font-size: 28px
     }
+    .tabs-list-container{
+        width:350px;
+    }
+    .arrow {
+    margin-top: 5%;
+    position: relative;
+    cursor: pointer;
+}
+.right-arrow{
+right:0%;
+}
+.left-arrow{
+    left:0%;
+}
 }
 
 @media (min-device-width:445px) and (max-device-width:480px) {
@@ -11331,11 +11641,33 @@
         width: 100%;
         font-size: 30px
     }
+    #bannerTextRewater{
+        top:6.3%;
+        font-size:20px;
+    }
     .achievement-card .col-centered img {
         height: 56px;
         width: 56px;
         margin-left: 38%
     }
+    #ministry {
+    height: 135%;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: -7%;
+}
+#brandeis {
+    height: 135%;
+    width: 45%;
+    margin-left: 27.5%;
+    margin-top: -5%;
+}
+#sc {
+    height: 168%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -6%;
+}
     .ev_container {
     margin-top: -805px;
     height: fit-content;
@@ -11715,7 +12047,7 @@
         margin-top: 14%!important
     }
     #bannerTextCareer {
-        top: 38%!important
+        top: 53%!important
     }
     #bannerText,
     #bannerTextCareer {
@@ -11740,9 +12072,10 @@
         padding-right: 10px!important
     }
     .career_a2 {
-        padding-left: 0px!important;
-        padding-right: 0px!important
-    }
+    padding-left: 0px!important;
+    margin-top: 15% !important;
+    padding-right: 0px!important;
+}
     .job ul {
         font-size: 14px;
         padding-left: 36px
@@ -12314,15 +12647,32 @@
         margin-left: -4%!important
     }
     .el_h1 {
-        position: absolute;
-        margin-top: 4%;
-        font-family: ProximaNovaSoft-Bold;
-        font-size: 32px
+    position: absolute;
+    margin-top: 0%;
+    font-family: ProximaNovaSoft-Bold;
+    font-size: 32px;
+    margin-left: 0%;
+}
+.el_h2 {
+    font-size: 12px;
+    font-family: Avenir_medium;
+    margin-left: 0%;
+    margin-top: 11%;
+    position: absolute;
+}
+    #colon{
+        display:none;
     }
-    .el_h2 {
-        font-size: 12px;
-        font-family: Avenir_medium
-    }
+    .el_hr {
+    float: left;
+    margin-bottom: 20%!important;
+    display: block;
+    width: 80px!important;
+    border-radius: 3px;
+    background-color: #00bfa5;
+    border: none;
+    margin-top: 17%!important;
+}
     .slide2 {
         width: 300px;
         position: absolute;
@@ -12352,16 +12702,6 @@
     .el_align1 p {
         width: 362px;
         line-height: 30px!important
-    }
-    .el_hr {
-        float: left;
-        margin-bottom: 30%!important;
-        display: block;
-        width: 80px!important;
-        border-radius: 3px;
-        background-color: #00bfa5;
-        border: none;
-        margin-top: 10%!important
     }
     section.left img {
         height: 24px;
@@ -12669,6 +13009,23 @@
     .tab-slider--body {
         margin-bottom: 20px
     }
+       .tabs-list-container{
+        width:350px;
+    }
+    .arrow {
+    margin-top: 5%;
+    position: relative;
+    cursor: pointer;
+}
+.right-arrow{
+right:2%;
+}
+.left-arrow{
+    left:2%;
+}
+.bannerCareer img{
+    height:55% !important;
+}
 }
 
 @media only screen and (min-height:642px) and (max-height:768px) and (min-width:320px) and (max-width:376px) {
@@ -14180,9 +14537,9 @@
 
 @media (min-width:321px) and (max-width:375px) {
     #bannerTextRewater {
-        top: 49vw;
-        font-size: 18px
-    }
+    top: 6%;
+    font-size: 16px;
+}
     .tabs-list-container {
         width: 175px
     }
@@ -14197,7 +14554,7 @@
         font-size: 18px
     }
     #bannerTextRewater {
-        top: 44vw;
+        top: 6%;
         font-size: 19px
     }
     .tabs-list-container {
@@ -14282,6 +14639,7 @@
         margin-top: 1%!important;
         height: 34vh
     }
+
 }
 
 @media screen and (device-width:320px) and (min-device-height:568px) {
@@ -14592,6 +14950,17 @@ margin-left:7.5%;
     margin-top: -60%;
     position: absolute;
 }
+#bannerTextRewater{
+        top:6.3%;
+        font-size:20px;
+    }
+    .bannerCareer img{
+        height:55% !important;
+    }
+    #bannerTextCareer{
+        top:55.3%;
+        font-size:29px;
+    }
 }
 @media screen and (min-device-width:576px) and (max-device-width:600px){
     #parent11 {
@@ -14621,6 +14990,38 @@ p.contact:nth-child(odd) {
     z-index: 980;
     width: 95vw;
     margin-left: -5%;
+}
+.bannerCareer img {
+    height: 55%!important;
+}
+#bannerTextCareer{
+    top:55.3%;
+    font-size:29px;
+}
+.combination p {
+    margin-left: 2.5%!important;
+    width: 95%!important;
+    margin-top:-10%;
+}
+    .tabs-list-container{
+        width:350px;
+    }
+    .arrow{
+        margin-top:5%;
+
+    }
+    .right-arrow{
+        right:8vw;
+    }
+    .left-arrow{
+        left:8vw;
+    }
+    .show_jobs {
+    margin-left: 2%;
+    font-family: Avenir_book;
+    font-size: 15px;
+    margin-top: 6%;
+    transition-duration: 0.8s;
 }
 }
 
