@@ -9609,7 +9609,7 @@
 .solution{
     height: auto;
     float: left;
-    margin-left: auto;
+    margin-left: -5px;
     padding-left: 0;
 }
     section.left img {
