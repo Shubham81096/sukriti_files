@@ -1,0 +1,64 @@
+
+        /*jssor slider loading skin spin css*/
+        .jssorl-009-spin img {
+            animation-name: jssorl-009-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-009-spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        /*jssor slider bullet skin 052 css*/
+        .jssorb052 .i {position:absolute;cursor:pointer;}
+        .jssorb052 .i .b {fill:#000;fill-opacity:0.3;}
+        .jssorb052 .i:hover .b {fill-opacity:.7;}
+        .jssorb052 .iav .b {fill:#00bfa5}
+        .jssorb052 .i.idn {opacity:.3;}
+
+        /*jssor slider bullet skin 057 css*/
+        .jssorb057 .i {position:absolute;cursor:pointer;}
+        .jssorb057 .i .b {fill: rgb(207, 207, 197);
+            
+            stroke-width: 1000;
+            stroke-miterlimit: 10;
+            stroke-opacity: 0.4;}
+        .jssorb057 .i:hover .b { fill:#00bfa5}
+        .jssorb057 .iav .b {fill: #00bfa5}
+        .jssorb057 .i.idn {opacity:.3;}
+
+        /*jssor slider arrow skin 073 css*/
+        .jssora073 {display:block;position:absolute;cursor:pointer;}
+        .jssora073:hover {}
+
+ 
+     /*Circular slider css  */
+
+     /*jssor slider bullet skin 051 css*/
+            /*jssor slider bullet skin 051 css*/
+            .jssorb051 .i {position:absolute;cursor:pointer;}
+            .jssorb051 .i .b {fill:rgb(138, 136, 136);fill-opacity:1;}
+            .jssorb051 .i:hover .b {fill:#00bfa5;fill-opacity:.5;}
+            .jssorb051 .iav .b {fill:#00bfa5}
+            .jssorb051 .i.idn {opacity:.3;}
+
+     /*jssor slider arrow skin 051 css*/
+     .jssora051 {display:block;position:absolute;cursor:pointer;}
+     .jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
+     .jssora051:hover {opacity:.8;}
+     .jssora051.jssora051dn {opacity:.5;}
+     .jssora051.jssora051ds {opacity:.3;pointer-events:none;}
+     .image img{
+     border-radius:50%}
+
+     /* Achivement slider */
+     .jssorb032 {position:absolute;}
+     .jssorb032 .i {position:absolute;cursor:pointer;}
+     .jssorb032 .i .b {fill:rgb(138, 136, 136);fill-opacity:1;}
+     .jssorb032 .i:hover .b {fill:#00bfa5;fill-opacity:.5;}
+     .jssorb032 .iav .b {fill:#00bfa5}
+     .jssorb032 .i.idn {opacity:.3;}
+
+     
