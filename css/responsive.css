@@ -7538,10 +7538,10 @@
         width: 90%
     }
     p.heading.content {
-        font-size: 12px;
-        padding-top: 31px;
-        margin-top: -2%
-    }
+    font-size: 12px;
+    padding-top: 31px;
+    margin-top: 2%;
+}
     .media {
         display: contents
     }
@@ -7997,11 +7997,11 @@
         height: 120px
     }
     .elats_sec1 {
-        margin-top: 20px!important;
-        height: 125px!important;
-        width: 100%!important;
-        margin-left: 8%!important
-    }
+    margin-top: 20px!important;
+    height: 125px!important;
+    width: 100%!important;
+    margin-left: 1%!important;
+}
     .sec1_sub1 {
         display: -webkit-inline-box
     }
@@ -8069,14 +8069,14 @@
     margin-top: -13%;
     font-family: ProximaNovaSoft-Bold;
     font-size: 32px;
-    margin-left: -6%;
+    margin-left: -2%;
 }
     .el_h2 {
-        font-size: 12px;
-        font-family: Avenir_medium;
-        margin-left: -6%;
-        position:absolute;
-    }
+    font-size: 12px;
+    font-family: Avenir_medium;
+    margin-left: -1%;
+    position: absolute;
+}
     #colon{
         display:none;
     }
@@ -8109,31 +8109,31 @@
     .el_align1 p {
         width: 310px
     }
-    .el_hr {
-        float: left;
-        margin-bottom: 30%!important;
-        display: block;
-        width: 80px!important;
-        border-radius: 3px;
-        background-color: #00bfa5;
-        border: none;
-        margin-top: 10%!important
-    }
+.el_hr {
+    float: left;
+    margin-bottom: 22%!important;
+    display: block;
+    width: 80px!important;
+    border-radius: 3px;
+    background-color: #00bfa5;
+    border: none;
+    margin-top: 4%!important;
+}
     section.left img {
         height: 24px;
         width: 24px
     }
     section.left {
-        margin-left: -20px;
-        margin-right: 20px
-    }
+    margin-left: -35px;
+    margin-right: 20px;
+}
     .head-challenge {
         width: 100%;
         margin-left: 0%;
         margin-right: 0%
     }
     .head-challenge .left .heading-text {
-        font-size: 14px
+        font-size: 12px
     }
     .small-icon_1 {
         margin-top: -6px
@@ -8144,7 +8144,7 @@
     }
     .elat_1 {
         width: 380px!important;
-        margin-left: -9%!important
+        margin-left: -11%!important
     }
     .sec1_2 {
         width: 21%;
@@ -8231,8 +8231,9 @@
         height: 450px
     }
     #foot-img2 {
-        height: 220px
-    }
+    height: 220px;
+    margin-top: 35%;
+}
     footer {
         padding-top: 5px;
         margin-top: -80%!important
@@ -8471,7 +8472,7 @@
         margin-bottom: 4%
     }
     .ev_container {
-    margin-top: -960px;
+    margin-top: -926px;
     height: fit-content;
     margin-left: 61%;
     position: relative;
@@ -9550,14 +9551,21 @@
         margin-left: -4%!important
     }
     .el_h1 {
-        position: absolute;
-        margin-top: 4%;
-        font-family: ProximaNovaSoft-Bold;
-        font-size: 32px
-    }
-    .el_h2 {
-        font-size: 12px;
-        font-family: Avenir_medium
+    position: absolute;
+    margin-top: 0%;
+    font-family: ProximaNovaSoft-Bold;
+    font-size: 32px;
+    margin-left: 0%;
+}
+.el_h2 {
+    font-size: 12px;
+    font-family: Avenir_medium;
+    margin-left: 0%;
+    margin-top: 11%;
+    position: absolute;
+}
+    #colon{
+        display:none;
     }
     .slide2 {
         width: 300px;
@@ -9589,15 +9597,21 @@
         width: 330px
     }
     .el_hr {
-        float: left;
-        margin-bottom: 30%!important;
-        display: block;
-        width: 80px!important;
-        border-radius: 3px;
-        background-color: #00bfa5;
-        border: none;
-        margin-top: 10%!important
-    }
+    float: left;
+    margin-bottom: 20%!important;
+    display: block;
+    width: 80px!important;
+    border-radius: 3px;
+    background-color: #00bfa5;
+    border: none;
+    margin-top: 15%!important;
+}
+.solution{
+    height: auto;
+    float: left;
+    margin-left: auto;
+    padding-left: 0;
+}
     section.left img {
         height: 24px;
         width: 24px
@@ -9704,9 +9718,9 @@
         height: 450px
     }
     #foot-img2 {
-        height: 220px;
-        margin-top: 0%
-    }
+    height: 220px;
+    margin-top: 30%;
+}
     footer {
         padding-top: 5px;
         margin-top: -80%!important
