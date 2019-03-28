@@ -359,7 +359,7 @@ else
                                                 <img class="image small-icon small-icon_1"src="./assets/home/rectangle-14-copy-5@3x.png">
                                             </div>
                                             <div class="col-md-7 col-sm-7 col-xs-12 left">
-                                                <p class="heading-text">Constant maintenance</p>
+                                                <p class="heading-text cmaint">Constant maintenance</p>
                                             </div>
                                         
                                     </div>
