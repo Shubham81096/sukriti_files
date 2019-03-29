@@ -39,7 +39,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST" && isset($_FILES["fileToUpload"])){
 
     $mail->SetFrom("sukritimails@gmail.com", "Sukriti Ngo");
     $mail->AddReplyTo("sukritimails@gmail.com", "Sukriti Ngo");
-    $mail->AddAddress("shubhamsharma81096@gmail.com");
+    $mail->AddAddress("contact@sukriti.ngo");
     $mail->Subject = "Job Application - ".$fname." ".$lname;
     $mail->WordWrap   = 80;
     $mail->MsgHTML($body);

@@ -843,8 +843,8 @@ else
         </div>
 </div>
         <!-- end -->
-        <img id="foot-img"src="assets/home/123.JPG"/ style="    width: 100%;">
-        <img id="foot-img2"src="assets/home/123.PNG"/ style="    width: 100%;">
+        <img id="foot-img" class="fimgindex1"src="assets/home/123.JPG"/ style="    width: 100%;">
+        <img id="foot-img2" class="fimgindex"src="assets/home/123.PNG"/ style="    width: 100%;">
         <footer id="contact"style="    margin-top: -34%;">
         <div class="col-md-4 footer-left" >
                       <div class='demopadding micon' >

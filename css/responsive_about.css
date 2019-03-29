@@ -1705,7 +1705,7 @@
         font-size: 14px!important
     }
     .text_divide {
-        margin-top: 680px!important
+        margin-top: 640px!important
     }
     #parent8 {
         width: 50vw!important;
@@ -2182,7 +2182,7 @@
         font-size: 14px!important
     }
     .text_divide {
-        margin-top: 680px!important
+        margin-top: 160%!important;
     }
     #parent8 {
         width: 50vw!important;
@@ -2658,7 +2658,7 @@ button[type=submit] {
         font-size: 14px!important
     }
     .text_divide {
-        margin-top: 680px!important
+        margin-top: 145%!important
     }
     #parent8 {
     width: 45vw!important;
@@ -2707,7 +2707,7 @@ button[type=submit] {
     #check {
         width: 95%!important;
         height: 525px!important;
-        margin-top: 465px!important;
+        margin-top: 445px!important;
         margin-bottom: -175%!important
     }
     #child5 {
@@ -2939,7 +2939,7 @@ button[type=submit] {
     position: absolute!important;
 }
 }
-@media screen and (min-device-width:576px) and (max-device-width:680px){
+@media screen and (min-device-width:576px) and (max-device-width:699px){
     .navbar.navbar-expand-md.avinash {
         padding: 15px 15px 20px 15px!important
     }
@@ -3004,11 +3004,12 @@ button[type=submit] {
         z-index: 10000;
         top: 75%;
         right: 0;
-        left: 0
+        left: 0;
+        height:135vh;
     }
     .navbar-nav {
         height: 90vh
-        padding-top:10%;
+        
     }
     .navbar-nav li {
         height: 100%;
@@ -3027,8 +3028,8 @@ button[type=submit] {
         width: 158px
     }
     .logo img {
-        width: 158px!important
-    }
+    width: 215px!important;
+}
     .bannerAbout img {
     height: 60%!important;
 }
@@ -3059,7 +3060,7 @@ button[type=submit] {
     }
     section.Banner {
     width: 100%;
-    height: 460px !important;
+    height: 510px !important;
 }
     .about_top {
     margin-top: -150px!important;
@@ -3095,15 +3096,15 @@ button[type=submit] {
         font-size: 14px!important
     }
     .about2_small {
-        margin: 0!important;
-        padding: 0!important;
-        margin-top: 20vh!important;
-        width: 100vw!important;
-        top: 797px!important;
-        height: 49px!important;
-        z-index: 100!important;
-        position: absolute!important
-    }
+    margin: 0!important;
+    padding: 0!important;
+    margin-top: 31%!important;
+    width: 100vw!important;
+    top: 797px!important;
+    height: 49px!important;
+    z-index: 100!important;
+    position: absolute!important;
+}
     .about_small {
         position: relative!important;
         z-index: 0!important
@@ -3128,9 +3129,9 @@ button[type=submit] {
     .p-text {
         font-size: 14px!important
     }
-    .text_divide {
-        margin-top: 680px!important
-    }
+   .text_divide {
+    margin-top: 122vw!important;
+}
     #parent8 {
     width: 40vw!important;
     height: 40vw!important;
@@ -3449,11 +3450,45 @@ button[type=submit] {
     padding: 0 10vw 0 0;
 }
 }
+@media screen and (min-device-width:681px) and (max-device-width:699px){
+section.Banner {
+    width: 100%;
+    height: 510px !important;
+}
+#parent8 {
+    width: 35vw!important;
+    height: 35vw!important;
+    border-radius: 50%!important;
+    background-size: contain!important;
+    margin-top: 4%!important;
+    margin-left: 55%!important;
+    width: 5!important;
+}
+#parent6 {
+    width: 150px!important;
+    height: 150px!important;
+    border-radius: 50%!important;
+    background-size: contain!important;
+    float: right!important;
+    margin-top: 10%!important;
+    margin-right: -60%!important;
+}
+.about2_small {
+    margin: 0!important;
+    padding: 0!important;
+    margin-top: 23%!important;
+    width: 100vw!important;
+    top: 797px!important;
+    height: 49px!important;
+    z-index: 100!important;
+    position: absolute!important;
+}
+.text_divide {
+    margin-top: 140%!important;
+}
+}
+@media screen and (min-device-width:700px) and (max-device-width:768px){
 
-
-
-
-@media screen and (min-device-width:681px) and (max-device-width:768px){
 .jssorb032 {
         display: none
     }
@@ -4336,6 +4371,77 @@ button[type=submit] {
 }
 }
 @media screen and (min-device-width:700px) and (max-device-width:767px){
+    #nav-toggle {
+        position: absolute;
+        left: 85%;
+        top: 35%
+    }
+    #nav-toggle {
+        cursor: pointer;
+        padding: 10px 35px 16px 0
+    }
+    #nav-toggle span,
+    #nav-toggle span:before,
+    #nav-toggle span:after {
+        cursor: pointer;
+        border-radius: 1px;
+        height: 2px;
+        width: 30px;
+        background: black;
+        position: absolute;
+        display: block;
+        content: ''
+    }
+    #nav-toggle span:before {
+        top: -10px
+    }
+    #nav-toggle span:after {
+        bottom: -10px
+    }
+    #nav-toggle span,
+    #nav-toggle span:before,
+    #nav-toggle span:after {
+        transition: all 500ms ease-in-out
+    }
+    #nav-toggle.active span {
+        background-color: transparent
+    }
+    #nav-toggle.active span:before,
+    #nav-toggle.active span:after {
+        top: 0
+    }
+    #nav-toggle.active span:before {
+        transform: rotate(45deg)
+    }
+    #nav-toggle.active span:after {
+        transform: rotate(-45deg)
+    }
+    #collapsibleNavbar {
+        background-color: white;
+        position: absolute;
+        z-index: 15000;
+        top: 75%;
+        margin-left:0;
+        right: 0;
+        left: 0
+    }
+.navbar-nav {
+    height: 80vh;
+    text-align: center;
+}
+    .navbar-nav li {
+        height: 15%;
+        padding-top: 10%
+    }
+    .avinash .navbar-nav .nav-link, .avinash .navbar-nav .nav-link.active {
+    font-size: 23px!important;
+    position: relative;
+    z-index: 10000;
+}
+    .navbar-nav li {
+    height: 15%;
+    padding-top: 10%;
+}
     .bannerAbout img {
     height: 75%!important;
 }
@@ -4645,7 +4751,7 @@ section.Banner {
     padding-bottom: 0;
 }
 }
-@media screen and (max-device-width:1440px) and (min-device-width:1201px){
+@media screen and (max-device-width:1300px) and (min-device-width:1201px){
     #bannerTextAbout {
     top: 364px;
 }

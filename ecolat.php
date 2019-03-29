@@ -412,7 +412,7 @@ else
 <div class="container-fluid mb-100 el_style" style="margin-top:12%;" >
         <div class="col-md-12">
             <p class="heading content"><span class="el_h1">ECOMITRA </span> <span class="el_h2"><span id="colon">:</span> A SMART SOLUTION</span>
-            <hr class="el_hr"/>
+            <hr class="el_hr el_hr_ecomitra"/>
             <br><br></p>
         </div>
         <div class="col-md-12 solution" style="width: 100%;height:auto;">
